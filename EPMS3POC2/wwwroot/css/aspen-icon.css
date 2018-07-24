@@ -1,0 +1,155 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?a14k6');
+    src:  url('../fonts/icomoon.eot?a14k6#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?a14k6') format('truetype'),
+      url('../fonts/icomoon.woff?a14k6') format('woff'),
+      url('../fonts/icomoon.svg?a14k6#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  [class^="icon-"]:before,
+  [class*=" icon-"]:before {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-training:before {
+    content: "\e917";
+  }
+  .icon-gears:before {
+    content: "\e916";
+  }
+  .icon-consent-form:before {
+    content: "\e900";
+  }
+  .icon-consult-summary:before {
+    content: "\e901";
+  }
+  .icon-education:before {
+    content: "\e902";
+  }
+  .icon-excuse-note:before {
+    content: "\e903";
+  }
+  .icon-payment-options:before {
+    content: "\e904";
+  }
+  .icon-print-paperwork:before {
+    content: "\e905";
+  }
+  .icon-review-tx-options:before {
+    content: "\e906";
+  }
+  .icon-tx-acceptance:before {
+    content: "\e907";
+  }
+  .icon-charting:before {
+    content: "\e908";
+  }
+  .icon-complete-notes:before {
+    content: "\e909";
+  }
+  .icon-images:before {
+    content: "\e90a";
+  }
+  .icon-medical:before {
+    content: "\e90b";
+  }
+  .icon-perio:before {
+    content: "\e90c";
+  }
+  .icon-vitals:before {
+    content: "\e90d";
+  }
+  .icon-login:before {
+    content: "\e90e";
+  }
+  .icon-patient-search:before {
+    content: "\e90f";
+  }
+  .icon-management:before {
+    content: "\e910";
+  }
+  .icon-clinical:before {
+    content: "\e911";
+  }
+  .icon-consult:before {
+    content: "\e912";
+  }
+  .icon-visit-prep:before {
+    content: "\e913";
+  }
+  .icon-visit-manager:before {
+    content: "\e914";
+  }
+  .icon-scheduling-center:before {
+    content: "\e915";
+  }
+  
+  @font-face {
+    font-family: "aspen-dental !important";
+    src:url("../fonts/aspen-dental.eot");
+    src:url("../fonts/aspen-dental.eot?#iefix") format("embedded-opentype"),
+      url("../fonts/aspen-dental.woff") format("woff"),
+      url("../fonts/aspen-dental.ttf") format("truetype"),
+      url("../fonts/aspen-dental.svg#aspen-dental") format("svg");
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+  
+  [data-icon]:before {
+    font-family: "aspen-dental";
+    content: attr(data-icon);
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  [class^="ad-icon-"]:before,
+  [class*="ad-icon-"]:before {
+    font-family: "aspen-dental !important";
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .ad-icon-patient-tracker-blue:before {
+    content: "\61";
+  }
+  .nav-tabs > li > a {
+      border: 1px solid #2A6EBB;
+      border-bottom: 0;
+  }
+  
+  @media (min-width: 1366px) {
+      .nav-tabs > li > a {
+          padding: 10px 12px;
+      }
+  }
+  
+  input[type=text].hide-clear::-ms-clear {
+      display: none;
+  }

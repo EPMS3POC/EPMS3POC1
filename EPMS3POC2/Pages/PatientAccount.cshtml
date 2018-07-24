@@ -1,0 +1,94 @@
+﻿@page
+@model EPMS3POC2.Pages.PatientAccountModel
+@{
+    ViewData["Title"] = "PatientAccount";
+    Layout = "~/Pages/Shared/_LayoutAspen.cshtml";
+    var altRow = false;
+}
+<div class="row mt-1">
+    <div class="col">
+        <ol class="breadcrumb breadcrumb-right-arrow m-0 p-2">
+            <li class="breadcrumb-item">
+                <a href="/">
+                    <span><i class="fa fa-home"></i> Home</span>
+                </a>
+            </li>
+            <li class="breadcrumb-item">
+                <span>Patient Account</span>
+            </li>
+        </ol>
+    </div>
+</div>
+<div class="container-fluid" style="margin-bottom:50px;">
+    <div class="row">
+        <div class="col">
+            <div class="card">
+                <!-- header slot here -->
+                <div class="card-header bg-primary text-white">
+                    <h6>Patient Account</h6>
+                </div>
+                <!-- body slot here -->
+                <div class="card-body">
+                    <table class="table table-bordered table-striped table-condensed">
+                        <thead>
+                            <tr>
+                                <th>@Html.DisplayNameFor(model => model.PatientAccount.AccountId)</th>
+                                <th>@Html.DisplayNameFor(model => model.PatientAccount.AccountNumber)</th>
+                                <th>@Html.DisplayNameFor(model => model.PatientAccount.FirstName)</th>
+                                <th>@Html.DisplayNameFor(model => model.PatientAccount.MiddleName)</th>
+                                <th>@Html.DisplayNameFor(model => model.PatientAccount.LastName)</th>
+                                <th>@Html.DisplayNameFor(model => model.PatientAccount.SuffixName)</th>
+                                <th>@Html.DisplayNameFor(model => model.PatientAccount.SocialSecurityNumber)</th>
+                                <th>@Html.DisplayNameFor(model => model.PatientAccount.BirthDate)</th>
+                                <th>@Html.DisplayNameFor(model => model.PatientAccount.Age)</th>
+                                <th>@Html.DisplayNameFor(model => model.PatientAccount.GenderName)</th>
+                                <th>@Html.DisplayNameFor(model => model.PatientAccount.RelationshipTypeName)</th>
+                                <th>@Html.DisplayNameFor(model => model.PatientAccount.Facility)</th>
+                                <th>@Html.DisplayNameFor(model => model.PatientAccount.AccountGroup)</th>
+                                <th>@Html.DisplayNameFor(model => model.PatientAccount.RecordStatus)</th>
+                                <th>@Html.DisplayNameFor(model => model.PatientAccount.HomePhone)</th>
+                                <th>@Html.DisplayNameFor(model => model.PatientAccount.Email)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+
+                            @foreach (var item in Model.lstPatientAccount)
+                            {
+                                <tr class="@(altRow ? "" : "")">
+                                    <td>@Html.DisplayFor(modelItem => item.AccountId)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.AccountNumber)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.FirstName)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.MiddleName)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.LastName)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.SuffixName)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.SocialSecurityNumber)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.BirthDate)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.Age)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.GenderName)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.RelationshipTypeName)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.Facility)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.AccountGroup)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.RecordStatus)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.HomePhone)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.Email)</td>
+                                </tr>
+                                altRow = !altRow;
+                            }
+                        </tbody>
+                    </table>
+                </div>
+                <!-- footer -->
+                @*<div class="card-footer">
+
+                    </div>*@
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+
+
+

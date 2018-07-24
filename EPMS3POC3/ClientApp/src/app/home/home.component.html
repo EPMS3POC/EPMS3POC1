@@ -1,0 +1,48 @@
+<!--<button routerLink="/person">Patient Person</button>
+<button routerLink="/account">Patient Account</button>-->
+
+
+
+<div class="row mt-1">
+  <div class="col">
+    <ol class="breadcrumb breadcrumb-right-arrow m-0 p-2">
+      <li class="breadcrumb-item">
+        <span><i class="fa fa-home"></i> Home</span>
+      </li>
+    </ol>
+  </div>
+</div>
+<div class="container-fluid" style="margin-bottom:50px;">
+  <div class="row">
+    <div class="col">
+      <div class="card">
+        <!-- header slot here -->
+        <div class="card-header bg-primary text-white">
+          <h6>Home</h6>
+        </div>
+        <!-- body slot here -->
+        <div class="card-body">
+          <ul class="list-inline dashboard">
+            <li class="list-inline-item">
+              <a routerLink="/person">
+                <i class="icon-patient-search dash-icon  dash-icon"></i>
+                <p class="dash-text">Patient Person <i class="fa fa-info-circle dash-info" placement="left" data-toggle="tooltip" title="Patient Person"></i></p>
+
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a routerLink="/account">
+                <i class="icon-patient-search dash-icon  dash-icon"></i>
+                <p class="dash-text">Patient Account <i class="fa fa-info-circle dash-info" placement="left" data-toggle="tooltip" title="Patient Account"></i></p>
+
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- footer -->
+        
+      </div>
+    </div>
+  </div>
+</div>
+

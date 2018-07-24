@@ -1,0 +1,86 @@
+<div class="row mt-1">
+  <div class="col">
+    <ol class="breadcrumb breadcrumb-right-arrow m-0 p-2">
+      <li class="breadcrumb-item">
+        <a routerLink="/home">
+          <span><i class="fa fa-home"></i> Home</span>
+        </a>
+      </li>
+      <li class="breadcrumb-item">
+        <span>Patient Person</span>
+      </li>
+    </ol>
+  </div>
+</div>
+<div class="container-fluid" style="margin-bottom:50px;">
+  <div class="row">
+    <div class="col">
+      <div class="card">
+        <!-- header slot here -->
+        <div class="card-header bg-primary text-white">
+          <h6>Patient Person</h6>
+        </div>
+        <!-- body slot here -->
+        <div class="card-body">
+          <table class="table table-bordered table-striped table-condensed">
+            <thead>
+              <tr>
+                <th>Id</th>
+                <th>FName</th>
+                <th>LName</th>
+                <th>DOB</th>
+                <th>Gender</th>
+                <th>SSN</th>
+                <th>Relationship</th>
+                <th>FacilityName</th>
+                <th>Appointment</th>
+                <th>
+                  Status
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let data of pagedPatientPersons">
+                <td>{{data.personId}}</td>
+                <td>{{data.firstName}}</td>
+                <td>{{data.lastName}}</td>
+                <td>{{data.birthDate}}</td>
+                <td>{{data.genderName}}</td>
+                <td>{{data.socialSecurityNumber}}</td>
+                <td>{{data.relationshipTypeName}}</td>
+                <td>{{data.facilityName}}</td>
+                <td>{{data.appointmentDate}}</td>
+                <td>{{data.recordStatus}}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <!-- footer -->
+        <ul *ngIf="pager.pages && pager.pages.length" class="pagination">
+          <li style="padding:4px;" [ngClass]="{disabled:pager.currentPage === 1}">
+            <button class="btn btn-default" (click)="setPage(1)">First</button>
+          </li>
+          <li style="padding:4px;" [ngClass]="{disabled:pager.currentPage === 1}">
+            <button class="btn btn-default" (click)="setPage(pager.currentPage - 1)">Previous</button>
+          </li>
+          <li style="padding:4px;">
+            <div class="border">{{pager.currentPage}}/{{pager.pages.length}}</div>
+          </li>
+
+          <!--<li *ngFor="let page of pager.pages" [ngClass]="{active:pager.currentPage === page}">
+            <a (click)="setPage(page)" style="padding:4px;">{{page}}</a>
+          </li>-->
+          <li style="padding:4px;" [ngClass]="{disabled:pager.currentPage === pager.totalPages}">
+            <button class="btn btn-warning" (click)="setPage(pager.currentPage + 1)">Next</button>
+          </li>
+          <li style="padding:4px;" [ngClass]="{disabled:pager.currentPage === pager.totalPages}">
+            <button class="btn btn-warning" (click)="setPage(pager.totalPages)">Last</button>
+          </li>
+        </ul>
+      </div>
+
+
+    </div>
+  </div>
+</div>
+

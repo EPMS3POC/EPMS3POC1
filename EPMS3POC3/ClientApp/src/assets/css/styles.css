@@ -1,0 +1,137 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    src: url("./assets/fonts/helvetica-neue/helvetica-neue-webfont.eot");
+}
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 57px;
+    border-bottom: 1px solid #2A6EBB;
+    background: #fff;
+}
+footer
+{
+    height: 40px;
+    width: 100%;
+    box-shadow: 0px -1px 5px #666666;
+    position: fixed;
+    bottom:0;
+}
+.logo {
+    float: left;
+    margin:-5px;
+    padding:10px;
+}
+
+.logo img{
+    height: 40px;
+    transition: visibility .15s, opacity .15s, height .15s;
+}
+nav.navbar.main-nav {
+    margin: 0 !important;
+}
+    nav.navbar.main-nav li.nav-item {
+        padding-left:8px;
+        padding-right:8px;
+    }
+        nav.navbar.main-nav li.nav-item:first-child {
+            padding-left:20px;
+        }
+    nav.navbar.main-nav .nav-link {
+        padding: 8px 10px;
+        border-radius: 0.25em;
+    }
+.dropdown-menu > a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
+    font-size: 0.95rem;
+}
+    .content-container {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+.sub-container{
+    margin-top:65px;
+}
+.ui-menubar .ui-menubar-root-list>.ui-menuitem>.ui-menuitem-link{padding:8px;}
+.card-header h6{ font-weight: bold; margin:0 !important; }
+.card-header .btn-sm{ padding:2px 7px; }
+.modal-header{
+    background-color: #2A6EBB;
+    color: white;
+  }
+  .modal-header .close{
+    color: white;
+  }
+  .ui-paginator-bottom
+  {
+      border: 0 none;
+  }
+.overlay {  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+    opacity: 0.9;
+    background: rgba(39, 42, 43, 0.8);
+    transition: opacity 200ms ease-in-out;
+    border-radius: 0px;
+    margin: -8px;
+    width:100%;
+    height:100%;
+}
+.userinfo > .nav-link {
+    padding-top:6px;
+    padding-bottom:6px;
+    padding-right:5px;
+    padding-left:10px;
+} 
+.userinfo_container {
+    max-width: 14vw;
+    display: inline-block;
+}
+
+.userinfo {
+    font-size: calc(8px + .2vw);
+}
+
+a[aria-expanded=true]{
+    color: white !important
+}
+.main-content {
+    margin:15px !important;
+}
+ul.dashboard {
+    display: table;
+    width: 30%;
+}
+
+    ul.dashboard li {
+        display: table-cell;
+        padding: 0 20px;
+        text-align: center;
+    }
+
+    ul.dashboard a {
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+.dash-icon {
+    font-size: 7rem;
+}
+
+.dash-text {
+    text-align: center;
+}
+
+    .dash-text:hover {
+        text-decoration: underline;
+    }

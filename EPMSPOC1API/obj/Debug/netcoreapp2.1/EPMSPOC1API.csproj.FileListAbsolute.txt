@@ -1,0 +1,98 @@
+C:\Users\Don Richards\Documents\Total Dental\Visual Studio Projects\POC1\NETCORE\EPMSPOC1API\EPMSPOC1API\obj\Debug\netcoreapp2.1\EPMSPOC1API.csprojAssemblyReference.cache
+C:\Users\Don Richards\Documents\Total Dental\Visual Studio Projects\POC1\NETCORE\EPMSPOC1API\EPMSPOC1API\obj\Debug\netcoreapp2.1\EPMSPOC1API.csproj.CoreCompileInputs.cache
+C:\Users\Don Richards\Documents\Total Dental\Visual Studio Projects\POC1\NETCORE\EPMSPOC1API\EPMSPOC1API\obj\Debug\netcoreapp2.1\EPMSPOC1API.RazorAssemblyInfo.cache
+C:\Users\Don Richards\Documents\Total Dental\Visual Studio Projects\POC1\NETCORE\EPMSPOC1API\EPMSPOC1API\obj\Debug\netcoreapp2.1\EPMSPOC1API.RazorAssemblyInfo.cs
+C:\Users\Don Richards\Documents\Total Dental\Visual Studio Projects\POC1\NETCORE\EPMSPOC1API\EPMSPOC1API\obj\Debug\netcoreapp2.1\EPMSPOC1API.AssemblyInfoInputs.cache
+C:\Users\Don Richards\Documents\Total Dental\Visual Studio Projects\POC1\NETCORE\EPMSPOC1API\EPMSPOC1API\obj\Debug\netcoreapp2.1\EPMSPOC1API.AssemblyInfo.cs
+C:\Users\Don Richards\Documents\Total Dental\Visual Studio Projects\POC1\NETCORE\EPMSPOC1API\EPMSPOC1API\bin\Debug\netcoreapp2.1\EPMSPOC1API.deps.json
+C:\Users\Don Richards\Documents\Total Dental\Visual Studio Projects\POC1\NETCORE\EPMSPOC1API\EPMSPOC1API\bin\Debug\netcoreapp2.1\EPMSPOC1API.runtimeconfig.json
+C:\Users\Don Richards\Documents\Total Dental\Visual Studio Projects\POC1\NETCORE\EPMSPOC1API\EPMSPOC1API\bin\Debug\netcoreapp2.1\EPMSPOC1API.runtimeconfig.dev.json
+C:\Users\Don Richards\Documents\Total Dental\Visual Studio Projects\POC1\NETCORE\EPMSPOC1API\EPMSPOC1API\bin\Debug\netcoreapp2.1\EPMSPOC1API.dll
+C:\Users\Don Richards\Documents\Total Dental\Visual Studio Projects\POC1\NETCORE\EPMSPOC1API\EPMSPOC1API\obj\Debug\netcoreapp2.1\EPMSPOC1API.RazorTargetAssemblyInfo.cache
+C:\Users\Don Richards\Documents\Total Dental\Visual Studio Projects\POC1\NETCORE\EPMSPOC1API\EPMSPOC1API\bin\Debug\netcoreapp2.1\EPMSPOC1API.pdb
+C:\Users\Don Richards\Documents\Total Dental\Visual Studio Projects\POC1\NETCORE\EPMSPOC1API\EPMSPOC1API\obj\Debug\netcoreapp2.1\EPMSPOC1API.dll
+C:\Users\Don Richards\Documents\Total Dental\Visual Studio Projects\POC1\NETCORE\EPMSPOC1API\EPMSPOC1API\obj\Debug\netcoreapp2.1\EPMSPOC1API.pdb
+D:\Amos Devakumar\DiskE\adevakumar\Documents\Visual Studio 2017\Projects\EPMSPOC1API\EPMSPOC1API\bin\Debug\netcoreapp2.1\EPMSPOC1API.deps.json
+D:\Amos Devakumar\DiskE\adevakumar\Documents\Visual Studio 2017\Projects\EPMSPOC1API\EPMSPOC1API\bin\Debug\netcoreapp2.1\EPMSPOC1API.runtimeconfig.json
+D:\Amos Devakumar\DiskE\adevakumar\Documents\Visual Studio 2017\Projects\EPMSPOC1API\EPMSPOC1API\bin\Debug\netcoreapp2.1\EPMSPOC1API.runtimeconfig.dev.json
+D:\Amos Devakumar\DiskE\adevakumar\Documents\Visual Studio 2017\Projects\EPMSPOC1API\EPMSPOC1API\bin\Debug\netcoreapp2.1\EPMSPOC1API.dll
+D:\Amos Devakumar\DiskE\adevakumar\Documents\Visual Studio 2017\Projects\EPMSPOC1API\EPMSPOC1API\bin\Debug\netcoreapp2.1\EPMSPOC1API.pdb
+D:\Amos Devakumar\DiskE\adevakumar\Documents\Visual Studio 2017\Projects\EPMSPOC1API\EPMSPOC1API\obj\Debug\netcoreapp2.1\EPMSPOC1API.csprojAssemblyReference.cache
+D:\Amos Devakumar\DiskE\adevakumar\Documents\Visual Studio 2017\Projects\EPMSPOC1API\EPMSPOC1API\obj\Debug\netcoreapp2.1\EPMSPOC1API.csproj.CoreCompileInputs.cache
+D:\Amos Devakumar\DiskE\adevakumar\Documents\Visual Studio 2017\Projects\EPMSPOC1API\EPMSPOC1API\obj\Debug\netcoreapp2.1\EPMSPOC1API.RazorAssemblyInfo.cache
+D:\Amos Devakumar\DiskE\adevakumar\Documents\Visual Studio 2017\Projects\EPMSPOC1API\EPMSPOC1API\obj\Debug\netcoreapp2.1\EPMSPOC1API.RazorAssemblyInfo.cs
+D:\Amos Devakumar\DiskE\adevakumar\Documents\Visual Studio 2017\Projects\EPMSPOC1API\EPMSPOC1API\obj\Debug\netcoreapp2.1\EPMSPOC1API.AssemblyInfoInputs.cache
+D:\Amos Devakumar\DiskE\adevakumar\Documents\Visual Studio 2017\Projects\EPMSPOC1API\EPMSPOC1API\obj\Debug\netcoreapp2.1\EPMSPOC1API.AssemblyInfo.cs
+D:\Amos Devakumar\DiskE\adevakumar\Documents\Visual Studio 2017\Projects\EPMSPOC1API\EPMSPOC1API\obj\Debug\netcoreapp2.1\EPMSPOC1API.RazorTargetAssemblyInfo.cache
+D:\Amos Devakumar\DiskE\adevakumar\Documents\Visual Studio 2017\Projects\EPMSPOC1API\EPMSPOC1API\obj\Debug\netcoreapp2.1\EPMSPOC1API.dll
+D:\Amos Devakumar\DiskE\adevakumar\Documents\Visual Studio 2017\Projects\EPMSPOC1API\EPMSPOC1API\obj\Debug\netcoreapp2.1\EPMSPOC1API.pdb
+D:\Amos Devakumar\DiskE\adevakumar\Downloads\EPMS3POC1\EPMS3POC1\EPMS3POC1\EPMSPOC1API\bin\Debug\netcoreapp2.1\EPMSPOC1API.deps.json
+D:\Amos Devakumar\DiskE\adevakumar\Downloads\EPMS3POC1\EPMS3POC1\EPMS3POC1\EPMSPOC1API\bin\Debug\netcoreapp2.1\EPMSPOC1API.runtimeconfig.json
+D:\Amos Devakumar\DiskE\adevakumar\Downloads\EPMS3POC1\EPMS3POC1\EPMS3POC1\EPMSPOC1API\bin\Debug\netcoreapp2.1\EPMSPOC1API.runtimeconfig.dev.json
+D:\Amos Devakumar\DiskE\adevakumar\Downloads\EPMS3POC1\EPMS3POC1\EPMS3POC1\EPMSPOC1API\bin\Debug\netcoreapp2.1\EPMSPOC1API.dll
+D:\Amos Devakumar\DiskE\adevakumar\Downloads\EPMS3POC1\EPMS3POC1\EPMS3POC1\EPMSPOC1API\bin\Debug\netcoreapp2.1\EPMSPOC1API.pdb
+D:\Amos Devakumar\DiskE\adevakumar\Downloads\EPMS3POC1\EPMS3POC1\EPMS3POC1\EPMSPOC1API\obj\Debug\netcoreapp2.1\EPMSPOC1API.csprojAssemblyReference.cache
+D:\Amos Devakumar\DiskE\adevakumar\Downloads\EPMS3POC1\EPMS3POC1\EPMS3POC1\EPMSPOC1API\obj\Debug\netcoreapp2.1\EPMSPOC1API.csproj.CoreCompileInputs.cache
+D:\Amos Devakumar\DiskE\adevakumar\Downloads\EPMS3POC1\EPMS3POC1\EPMS3POC1\EPMSPOC1API\obj\Debug\netcoreapp2.1\EPMSPOC1API.RazorAssemblyInfo.cache
+D:\Amos Devakumar\DiskE\adevakumar\Downloads\EPMS3POC1\EPMS3POC1\EPMS3POC1\EPMSPOC1API\obj\Debug\netcoreapp2.1\EPMSPOC1API.RazorAssemblyInfo.cs
+D:\Amos Devakumar\DiskE\adevakumar\Downloads\EPMS3POC1\EPMS3POC1\EPMS3POC1\EPMSPOC1API\obj\Debug\netcoreapp2.1\EPMSPOC1API.AssemblyInfoInputs.cache
+D:\Amos Devakumar\DiskE\adevakumar\Downloads\EPMS3POC1\EPMS3POC1\EPMS3POC1\EPMSPOC1API\obj\Debug\netcoreapp2.1\EPMSPOC1API.AssemblyInfo.cs
+D:\Amos Devakumar\DiskE\adevakumar\Downloads\EPMS3POC1\EPMS3POC1\EPMS3POC1\EPMSPOC1API\obj\Debug\netcoreapp2.1\EPMSPOC1API.RazorTargetAssemblyInfo.cache
+D:\Amos Devakumar\DiskE\adevakumar\Downloads\EPMS3POC1\EPMS3POC1\EPMS3POC1\EPMSPOC1API\obj\Debug\netcoreapp2.1\EPMSPOC1API.dll
+D:\Amos Devakumar\DiskE\adevakumar\Downloads\EPMS3POC1\EPMS3POC1\EPMS3POC1\EPMSPOC1API\obj\Debug\netcoreapp2.1\EPMSPOC1API.pdb
+C:\Users\adevakumar\Desktop\EPMS3POC1\EPMSPOC1API\bin\Debug\netcoreapp2.1\EPMSPOC1API.deps.json
+C:\Users\adevakumar\Desktop\EPMS3POC1\EPMSPOC1API\bin\Debug\netcoreapp2.1\EPMSPOC1API.runtimeconfig.json
+C:\Users\adevakumar\Desktop\EPMS3POC1\EPMSPOC1API\bin\Debug\netcoreapp2.1\EPMSPOC1API.runtimeconfig.dev.json
+C:\Users\adevakumar\Desktop\EPMS3POC1\EPMSPOC1API\bin\Debug\netcoreapp2.1\EPMSPOC1API.dll
+C:\Users\adevakumar\Desktop\EPMS3POC1\EPMSPOC1API\bin\Debug\netcoreapp2.1\EPMSPOC1API.pdb
+C:\Users\adevakumar\Desktop\EPMS3POC1\EPMSPOC1API\obj\Debug\netcoreapp2.1\EPMSPOC1API.csprojAssemblyReference.cache
+C:\Users\adevakumar\Desktop\EPMS3POC1\EPMSPOC1API\obj\Debug\netcoreapp2.1\EPMSPOC1API.csproj.CoreCompileInputs.cache
+C:\Users\adevakumar\Desktop\EPMS3POC1\EPMSPOC1API\obj\Debug\netcoreapp2.1\EPMSPOC1API.RazorAssemblyInfo.cache
+C:\Users\adevakumar\Desktop\EPMS3POC1\EPMSPOC1API\obj\Debug\netcoreapp2.1\EPMSPOC1API.RazorAssemblyInfo.cs
+C:\Users\adevakumar\Desktop\EPMS3POC1\EPMSPOC1API\obj\Debug\netcoreapp2.1\EPMSPOC1API.AssemblyInfoInputs.cache
+C:\Users\adevakumar\Desktop\EPMS3POC1\EPMSPOC1API\obj\Debug\netcoreapp2.1\EPMSPOC1API.AssemblyInfo.cs
+C:\Users\adevakumar\Desktop\EPMS3POC1\EPMSPOC1API\obj\Debug\netcoreapp2.1\EPMSPOC1API.RazorTargetAssemblyInfo.cache
+C:\Users\adevakumar\Desktop\EPMS3POC1\EPMSPOC1API\obj\Debug\netcoreapp2.1\EPMSPOC1API.dll
+C:\Users\adevakumar\Desktop\EPMS3POC1\EPMSPOC1API\obj\Debug\netcoreapp2.1\EPMSPOC1API.pdb
+E:\EPMS3POC1\EPMSPOC1API\bin\Debug\netcoreapp2.1\EPMSPOC1API.deps.json
+E:\EPMS3POC1\EPMSPOC1API\bin\Debug\netcoreapp2.1\EPMSPOC1API.runtimeconfig.json
+E:\EPMS3POC1\EPMSPOC1API\bin\Debug\netcoreapp2.1\EPMSPOC1API.runtimeconfig.dev.json
+E:\EPMS3POC1\EPMSPOC1API\bin\Debug\netcoreapp2.1\EPMSPOC1API.dll
+E:\EPMS3POC1\EPMSPOC1API\bin\Debug\netcoreapp2.1\EPMSPOC1API.pdb
+E:\EPMS3POC1\EPMSPOC1API\obj\Debug\netcoreapp2.1\EPMSPOC1API.csproj.CoreCompileInputs.cache
+E:\EPMS3POC1\EPMSPOC1API\obj\Debug\netcoreapp2.1\EPMSPOC1API.RazorAssemblyInfo.cache
+E:\EPMS3POC1\EPMSPOC1API\obj\Debug\netcoreapp2.1\EPMSPOC1API.RazorAssemblyInfo.cs
+E:\EPMS3POC1\EPMSPOC1API\obj\Debug\netcoreapp2.1\EPMSPOC1API.AssemblyInfoInputs.cache
+E:\EPMS3POC1\EPMSPOC1API\obj\Debug\netcoreapp2.1\EPMSPOC1API.AssemblyInfo.cs
+E:\EPMS3POC1\EPMSPOC1API\obj\Debug\netcoreapp2.1\EPMSPOC1API.RazorTargetAssemblyInfo.cache
+E:\EPMS3POC1\EPMSPOC1API\obj\Debug\netcoreapp2.1\EPMSPOC1API.dll
+E:\EPMS3POC1\EPMSPOC1API\obj\Debug\netcoreapp2.1\EPMSPOC1API.pdb
+E:\EPMS3POC1\EPMSPOC1API\obj\Debug\netcoreapp2.1\EPMSPOC1API.csprojAssemblyReference.cache
+E:\EPMS3POC1 - Copy\EPMSPOC1API\bin\Debug\netcoreapp2.1\EPMSPOC1API.deps.json
+E:\EPMS3POC1 - Copy\EPMSPOC1API\bin\Debug\netcoreapp2.1\EPMSPOC1API.runtimeconfig.json
+E:\EPMS3POC1 - Copy\EPMSPOC1API\bin\Debug\netcoreapp2.1\EPMSPOC1API.runtimeconfig.dev.json
+E:\EPMS3POC1 - Copy\EPMSPOC1API\bin\Debug\netcoreapp2.1\EPMSPOC1API.dll
+E:\EPMS3POC1 - Copy\EPMSPOC1API\bin\Debug\netcoreapp2.1\EPMSPOC1API.pdb
+E:\EPMS3POC1 - Copy\EPMSPOC1API\obj\Debug\netcoreapp2.1\EPMSPOC1API.csprojAssemblyReference.cache
+E:\EPMS3POC1 - Copy\EPMSPOC1API\obj\Debug\netcoreapp2.1\EPMSPOC1API.csproj.CoreCompileInputs.cache
+E:\EPMS3POC1 - Copy\EPMSPOC1API\obj\Debug\netcoreapp2.1\EPMSPOC1API.RazorAssemblyInfo.cache
+E:\EPMS3POC1 - Copy\EPMSPOC1API\obj\Debug\netcoreapp2.1\EPMSPOC1API.RazorAssemblyInfo.cs
+E:\EPMS3POC1 - Copy\EPMSPOC1API\obj\Debug\netcoreapp2.1\EPMSPOC1API.AssemblyInfoInputs.cache
+E:\EPMS3POC1 - Copy\EPMSPOC1API\obj\Debug\netcoreapp2.1\EPMSPOC1API.AssemblyInfo.cs
+E:\EPMS3POC1 - Copy\EPMSPOC1API\obj\Debug\netcoreapp2.1\EPMSPOC1API.RazorTargetAssemblyInfo.cache
+E:\EPMS3POC1 - Copy\EPMSPOC1API\obj\Debug\netcoreapp2.1\EPMSPOC1API.dll
+E:\EPMS3POC1 - Copy\EPMSPOC1API\obj\Debug\netcoreapp2.1\EPMSPOC1API.pdb
+C:\Users\adevakumar\Desktop\EPMS3POC1 - Copy\EPMS3POC1 - Copy\EPMSPOC1API\bin\Debug\netcoreapp2.1\EPMSPOC1API.deps.json
+C:\Users\adevakumar\Desktop\EPMS3POC1 - Copy\EPMS3POC1 - Copy\EPMSPOC1API\bin\Debug\netcoreapp2.1\EPMSPOC1API.runtimeconfig.json
+C:\Users\adevakumar\Desktop\EPMS3POC1 - Copy\EPMS3POC1 - Copy\EPMSPOC1API\bin\Debug\netcoreapp2.1\EPMSPOC1API.runtimeconfig.dev.json
+C:\Users\adevakumar\Desktop\EPMS3POC1 - Copy\EPMS3POC1 - Copy\EPMSPOC1API\bin\Debug\netcoreapp2.1\EPMSPOC1API.dll
+C:\Users\adevakumar\Desktop\EPMS3POC1 - Copy\EPMS3POC1 - Copy\EPMSPOC1API\bin\Debug\netcoreapp2.1\EPMSPOC1API.pdb
+C:\Users\adevakumar\Desktop\EPMS3POC1 - Copy\EPMS3POC1 - Copy\EPMSPOC1API\obj\Debug\netcoreapp2.1\EPMSPOC1API.csprojAssemblyReference.cache
+C:\Users\adevakumar\Desktop\EPMS3POC1 - Copy\EPMS3POC1 - Copy\EPMSPOC1API\obj\Debug\netcoreapp2.1\EPMSPOC1API.csproj.CoreCompileInputs.cache
+C:\Users\adevakumar\Desktop\EPMS3POC1 - Copy\EPMS3POC1 - Copy\EPMSPOC1API\obj\Debug\netcoreapp2.1\EPMSPOC1API.RazorAssemblyInfo.cache
+C:\Users\adevakumar\Desktop\EPMS3POC1 - Copy\EPMS3POC1 - Copy\EPMSPOC1API\obj\Debug\netcoreapp2.1\EPMSPOC1API.RazorAssemblyInfo.cs
+C:\Users\adevakumar\Desktop\EPMS3POC1 - Copy\EPMS3POC1 - Copy\EPMSPOC1API\obj\Debug\netcoreapp2.1\EPMSPOC1API.AssemblyInfoInputs.cache
+C:\Users\adevakumar\Desktop\EPMS3POC1 - Copy\EPMS3POC1 - Copy\EPMSPOC1API\obj\Debug\netcoreapp2.1\EPMSPOC1API.AssemblyInfo.cs
+C:\Users\adevakumar\Desktop\EPMS3POC1 - Copy\EPMS3POC1 - Copy\EPMSPOC1API\obj\Debug\netcoreapp2.1\EPMSPOC1API.RazorTargetAssemblyInfo.cache
+C:\Users\adevakumar\Desktop\EPMS3POC1 - Copy\EPMS3POC1 - Copy\EPMSPOC1API\obj\Debug\netcoreapp2.1\EPMSPOC1API.dll
+C:\Users\adevakumar\Desktop\EPMS3POC1 - Copy\EPMS3POC1 - Copy\EPMSPOC1API\obj\Debug\netcoreapp2.1\EPMSPOC1API.pdb

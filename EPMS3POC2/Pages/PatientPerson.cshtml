@@ -1,0 +1,78 @@
+﻿@page
+
+@model EPMS3POC2.Pages.PatientPersonModel;
+@{
+    Layout = "~/Pages/Shared/_LayoutAspen.cshtml";
+    ViewData["Title"] = "PatientPerson";
+}
+
+    <div class="row mt-1">
+        <div class="col">
+            <ol class="breadcrumb breadcrumb-right-arrow m-0 p-2">
+                <li class="breadcrumb-item">
+                    <a href="/">
+                        <span><i class="fa fa-home"></i> Home</span>
+                    </a>
+                </li>
+                <li class="breadcrumb-item">
+                    <span>Patient Person</span>
+                </li>
+            </ol>
+        </div>
+    </div>
+    <div class="container-fluid" style="margin-bottom:50px;">
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <!-- header slot here -->
+                    <div class="card-header bg-primary text-white">
+                        <h6>Patient Person</h6>
+                    </div>
+                    <!-- body slot here -->
+                    <div class="card-body">
+                        <table class="table table-bordered table-striped table-condensed">
+                            <thead>
+                                <tr>
+                                    <th>@Html.DisplayNameFor(model => model.personPatient.PersonId)</th>
+                                    <th>@Html.DisplayNameFor(model => model.personPatient.FirstName)</th>
+                                    <th>@Html.DisplayNameFor(model => model.personPatient.LastName)</th>
+                                    <th>@Html.DisplayNameFor(model => model.personPatient.BirthDate)</th>
+                                    <th>@Html.DisplayNameFor(model => model.personPatient.GenderName)</th>
+                                    <th>@Html.DisplayNameFor(model => model.personPatient.SocialSecurityNumber)</th>
+                                    <th>@Html.DisplayNameFor(model => model.personPatient.RelationshipTypeName)</th>
+                                    <th>@Html.DisplayNameFor(model => model.personPatient.FacilityName)</th>
+                                    <th>@Html.DisplayNameFor(model => model.personPatient.AppointmentDate)</th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.personPatient.RecordStatus)
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model.lstPersonPatient)
+                                {
+                                    <tr>
+                                        <td>@Html.DisplayFor(modelItem => item.PersonId)</td>
+                                        <td>@Html.DisplayFor(modelItem => item.FirstName)</td>
+                                        <td>@Html.DisplayFor(modelItem => item.LastName)</td>
+                                        <td>@Html.DisplayFor(modelItem => item.BirthDate)</td>
+                                        <td>@Html.DisplayFor(modelItem => item.GenderName)</td>
+                                        <td>@Html.DisplayFor(modelItem => item.SocialSecurityNumber)</td>
+                                        <td>@Html.DisplayFor(modelItem => item.RelationshipTypeName)</td>
+                                        <td>@Html.DisplayFor(modelItem => item.FacilityName)</td>
+                                        <td>@Html.DisplayFor(modelItem => item.AppointmentDate)</td>
+                                        <td>@Html.DisplayFor(modelItem => item.RecordStatus)</td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- footer -->
+                    @*<div class="card-footer">
+                       
+                    </div>*@
+                </div>
+
+                
+            </div>
+        </div>
+    </div>

@@ -1,0 +1,58 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Pages\About.cshtml.cs" />
+    <Compile Remove="Pages\Contact.cshtml.cs" />
+    <Compile Remove="Pages\Error.cshtml.cs" />
+    <Compile Remove="Pages\Person.cshtml.cs" />
+    <Compile Remove="Pages\Privacy.cshtml.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="Pages\About.cshtml" />
+    <Content Remove="Pages\Contact.cshtml" />
+    <Content Remove="Pages\Error.cshtml" />
+    <Content Remove="Pages\Person.cshtml" />
+    <Content Remove="Pages\Privacy.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\fonts\aspen-dental.svg" />
+    <None Include="wwwroot\fonts\glyphicons-halflings-regular.svg" />
+    <None Include="wwwroot\fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="wwwroot\fonts\helvetica-neue\helvetica-neue-webfont.svg" />
+    <None Include="wwwroot\fonts\icomoon.svg" />
+    <None Include="wwwroot\lib\bootstrap-4.0.0-dist\css\bootstrap-grid.css.map" />
+    <None Include="wwwroot\lib\bootstrap-4.0.0-dist\css\bootstrap-grid.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap-4.0.0-dist\css\bootstrap-reboot.css.map" />
+    <None Include="wwwroot\lib\bootstrap-4.0.0-dist\css\bootstrap-reboot.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap-4.0.0-dist\css\bootstrap.css.map" />
+    <None Include="wwwroot\lib\bootstrap-4.0.0-dist\css\bootstrap.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap-4.0.0-dist\js\bootstrap.bundle.js" />
+    <None Include="wwwroot\lib\bootstrap-4.0.0-dist\js\bootstrap.bundle.js.map" />
+    <None Include="wwwroot\lib\bootstrap-4.0.0-dist\js\bootstrap.bundle.min.js" />
+    <None Include="wwwroot\lib\bootstrap-4.0.0-dist\js\bootstrap.bundle.min.js.map" />
+    <None Include="wwwroot\lib\bootstrap-4.0.0-dist\js\bootstrap.js" />
+    <None Include="wwwroot\lib\bootstrap-4.0.0-dist\js\bootstrap.js.map" />
+    <None Include="wwwroot\lib\bootstrap-4.0.0-dist\js\bootstrap.min.js" />
+    <None Include="wwwroot\lib\bootstrap-4.0.0-dist\js\bootstrap.min.js.map" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNet.OData" Version="7.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.OData.Edm" Version="7.5.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="Pages\Shared\_LayoutAspen.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
+  </ItemGroup>
+
+</Project>
