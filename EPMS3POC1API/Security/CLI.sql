@@ -1,0 +1,3 @@
+﻿CREATE SCHEMA [CLI]
+    AUTHORIZATION [dbo];
+

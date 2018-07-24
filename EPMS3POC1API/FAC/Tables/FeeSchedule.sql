@@ -1,0 +1,25 @@
+﻿CREATE TABLE [FAC].[FeeSchedule] (
+    [FeeScheduleId]          BIGINT         IDENTITY (1, 1) NOT NULL,
+    [FeeScheduleTypeId]      BIGINT         NULL,
+    [IsSpecialtyFee]         SMALLINT       NULL,
+    [IsBasedOnFee]           SMALLINT       NULL,
+    [IsAdultFee]             SMALLINT       NULL,
+    [EffectiveDate]          DATETIME       NULL,
+    [FeeScheduleDescription] VARCHAR (1024) NULL,
+    [FeeScheduleCode]        CHAR (5)       NULL,
+    [FeeScheduleName]        VARCHAR (40)   NULL,
+    [CreatedDateTime]        DATETIME       NOT NULL,
+    [ModifiedDateTime]       DATETIME       NOT NULL,
+    [CreatedByUser]          VARCHAR (80)   NOT NULL,
+    [ModifiedByUser]         VARCHAR (80)   NULL,
+    [CreatedByProgram]       VARCHAR (80)   NOT NULL,
+    [ModifiedByProgram]      VARCHAR (80)   NULL,
+    [RecordStatus]           INT            NOT NULL,
+    [InsurancePayerId]       BIGINT         NULL,
+    [ProviderInsuranceId]    BIGINT         NULL,
+    CONSTRAINT [XPKFeeSchedule] PRIMARY KEY CLUSTERED ([FeeScheduleId] ASC),
+    CONSTRAINT [R_340] FOREIGN KEY ([FeeScheduleTypeId]) REFERENCES [FAC].[FeeScheduleType] ([FeeScheduleTypeId]),
+    CONSTRAINT [R_734] FOREIGN KEY ([InsurancePayerId]) REFERENCES [INS].[InsurancePayer] ([InsurancePayerId]),
+    CONSTRAINT [R_753] FOREIGN KEY ([ProviderInsuranceId]) REFERENCES [INS].[ProviderInsurance] ([ProviderInsuranceId])
+);
+

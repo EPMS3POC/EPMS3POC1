@@ -1,0 +1,3 @@
+﻿CREATE USER [EPMS_MGMT] FOR LOGIN [BUILTIN\Users]
+    WITH DEFAULT_SCHEMA = [db_owner];
+

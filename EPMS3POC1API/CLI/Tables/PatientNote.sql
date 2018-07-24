@@ -1,0 +1,25 @@
+﻿CREATE TABLE [CLI].[PatientNote] (
+    [PatientNoteId]         BIGINT       IDENTITY (1, 1) NOT NULL,
+    [PatientNoteTypeId]     BIGINT       CONSTRAINT [DF__PatientNo__Patie__45CA13F8] DEFAULT ((0)) NOT NULL,
+    [Note]                  VARCHAR (1)  NULL,
+    [PatientId]             BIGINT       NULL,
+    [CreatedDateTime]       DATETIME     NOT NULL,
+    [ModifiedDateTime]      DATETIME     NOT NULL,
+    [CreatedByUser]         VARCHAR (80) NOT NULL,
+    [ModifiedByUser]        VARCHAR (80) NULL,
+    [CreatedByProgram]      VARCHAR (80) NOT NULL,
+    [ModifiedByProgram]     VARCHAR (80) NULL,
+    [RecordStatus]          INT          NOT NULL,
+    [NoteDate]              DATETIME     NULL,
+    [AuthorId]              BIGINT       NULL,
+    [OfficeId]              BIGINT       NULL,
+    [PatientProcedureId]    BIGINT       NULL,
+    [ApproverlId]           BIGINT       NULL,
+    [PatientNoteTemplateId] BIGINT       NULL,
+    CONSTRAINT [PK__PatientN__1908825654279B4A] PRIMARY KEY CLUSTERED ([PatientNoteId] ASC),
+    CONSTRAINT [R_381] FOREIGN KEY ([PatientId]) REFERENCES [PER].[Patient] ([PatientId]),
+    CONSTRAINT [R_382] FOREIGN KEY ([PatientNoteTypeId]) REFERENCES [CLI].[PatientNoteType] ([PatientNoteTypeId]),
+    CONSTRAINT [R_754] FOREIGN KEY ([PatientProcedureId]) REFERENCES [TRE].[PatientProcedure] ([PatientProcedureId]),
+    CONSTRAINT [R_755] FOREIGN KEY ([PatientNoteTemplateId]) REFERENCES [CLI].[PatientNoteTemplate] ([PatientNoteTemplateId])
+);
+

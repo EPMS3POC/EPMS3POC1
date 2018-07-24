@@ -1,0 +1,25 @@
+﻿CREATE TABLE [FAC].[Promotion] (
+    [PromotionId]          BIGINT         IDENTITY (1, 1) NOT NULL,
+    [StartDate]            DATETIME       NULL,
+    [EndDate]              DATETIME       NULL,
+    [DaysExtended]         INT            NULL,
+    [IsPatientLimited]     SMALLINT       NULL,
+    [IsRecordNotesExists]  SMALLINT       NULL,
+    [PromotionTypeId]      BIGINT         NULL,
+    [PromotionNotes]       VARCHAR (1024) NULL,
+    [MarketingId]          BIGINT         NOT NULL,
+    [PromotionDescription] VARCHAR (1024) NULL,
+    [PromotionCode]        CHAR (5)       NULL,
+    [PromotionName]        VARCHAR (40)   NULL,
+    [CreatedDateTime]      DATETIME       NOT NULL,
+    [ModifiedDateTime]     DATETIME       NOT NULL,
+    [CreatedByUser]        VARCHAR (80)   NOT NULL,
+    [ModifiedByUser]       VARCHAR (80)   NULL,
+    [CreatedByProgram]     VARCHAR (80)   NOT NULL,
+    [ModifiedByProgram]    VARCHAR (80)   NULL,
+    [RecordStatus]         INT            NOT NULL,
+    CONSTRAINT [XPKPromotion] PRIMARY KEY CLUSTERED ([PromotionId] ASC),
+    CONSTRAINT [R_338] FOREIGN KEY ([PromotionTypeId]) REFERENCES [FAC].[PromotionType] ([PromotionTypeId]),
+    CONSTRAINT [R_597] FOREIGN KEY ([MarketingId]) REFERENCES [FAC].[Marketing] ([MarketingId])
+);
+

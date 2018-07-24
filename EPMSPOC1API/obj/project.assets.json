@@ -11606,11 +11606,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\adevakumar\\Desktop\\EPMS3POC1 - Copy\\EPMS3POC1 - Copy\\EPMSPOC1API\\EPMSPOC1API.csproj",
+      "projectUniqueName": "C:\\Users\\adevakumar\\Source\\Repos\\EPMS3POC1\\EPMSPOC1API\\EPMSPOC1API.csproj",
       "projectName": "EPMSPOC1API",
-      "projectPath": "C:\\Users\\adevakumar\\Desktop\\EPMS3POC1 - Copy\\EPMS3POC1 - Copy\\EPMSPOC1API\\EPMSPOC1API.csproj",
+      "projectPath": "C:\\Users\\adevakumar\\Source\\Repos\\EPMS3POC1\\EPMSPOC1API\\EPMSPOC1API.csproj",
       "packagesPath": "C:\\Users\\adevakumar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\adevakumar\\Desktop\\EPMS3POC1 - Copy\\EPMS3POC1 - Copy\\EPMSPOC1API\\obj\\",
+      "outputPath": "C:\\Users\\adevakumar\\Source\\Repos\\EPMS3POC1\\EPMSPOC1API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

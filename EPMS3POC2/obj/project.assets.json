@@ -12351,11 +12351,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\adevakumar\\Desktop\\EPMS3POC1 - Copy\\EPMS3POC1 - Copy\\EPMS3POC2\\EPMS3POC2.csproj",
+      "projectUniqueName": "C:\\Users\\adevakumar\\Source\\Repos\\EPMS3POC1\\EPMS3POC2\\EPMS3POC2.csproj",
       "projectName": "EPMS3POC2",
-      "projectPath": "C:\\Users\\adevakumar\\Desktop\\EPMS3POC1 - Copy\\EPMS3POC1 - Copy\\EPMS3POC2\\EPMS3POC2.csproj",
+      "projectPath": "C:\\Users\\adevakumar\\Source\\Repos\\EPMS3POC1\\EPMS3POC2\\EPMS3POC2.csproj",
       "packagesPath": "C:\\Users\\adevakumar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\adevakumar\\Desktop\\EPMS3POC1 - Copy\\EPMS3POC1 - Copy\\EPMS3POC2\\obj\\",
+      "outputPath": "C:\\Users\\adevakumar\\Source\\Repos\\EPMS3POC1\\EPMS3POC2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

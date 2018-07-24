@@ -1,0 +1,25 @@
+﻿CREATE TABLE [CLI].[PerioMeasure] (
+    [PerioMeasureId]     BIGINT       IDENTITY (1, 1) NOT NULL,
+    [PerioMeasureNumber] BIGINT       NULL,
+    [SequenceType]       INT          NULL,
+    [ToothValue]         INT          NULL,
+    [MBValue]            INT          NULL,
+    [BValue]             INT          NULL,
+    [DBValue]            INT          NULL,
+    [MLValue]            INT          NULL,
+    [LValue]             INT          NULL,
+    [DLValue]            INT          NULL,
+    [CreatedDateTime]    DATETIME     NULL,
+    [ModifiedDateTime]   DATETIME     NULL,
+    [CreatedByUser]      VARCHAR (80) NULL,
+    [ModifiedByUser]     VARCHAR (80) NULL,
+    [CreatedByProgram]   VARCHAR (80) NULL,
+    [ModifiedByProgram]  VARCHAR (80) NULL,
+    [RecordStatus]       INT          NULL,
+    [PatientToothId]     BIGINT       NULL,
+    [PerioChartId]       BIGINT       NULL,
+    CONSTRAINT [PK_PERIOMEASURE] PRIMARY KEY CLUSTERED ([PerioMeasureId] ASC),
+    CONSTRAINT [R_830] FOREIGN KEY ([PatientToothId]) REFERENCES [CLI].[PatientTooth] ([PatientToothId]),
+    CONSTRAINT [R_897] FOREIGN KEY ([PerioChartId]) REFERENCES [CLI].[PerioChart] ([PerioChartId])
+);
+

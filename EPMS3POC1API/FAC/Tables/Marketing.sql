@@ -1,0 +1,25 @@
+﻿CREATE TABLE [FAC].[Marketing] (
+    [MarketingId]             BIGINT       IDENTITY (1, 1) NOT NULL,
+    [MarketingArea]           VARCHAR (20) NULL,
+    [WebsiteName]             VARCHAR (20) NULL,
+    [WebsiteMarketingPlaza]   VARCHAR (20) NULL,
+    [WebsiteGeolocation]      VARCHAR (20) NULL,
+    [WebsiteNeighboringAreas] VARCHAR (20) NULL,
+    [WebsiteComments]         VARCHAR (20) NULL,
+    [WebsiteActive]           VARCHAR (20) NULL,
+    [DMA]                     VARCHAR (20) NULL,
+    [PricingRegions]          VARCHAR (20) NULL,
+    [OfferDisclaimers]        VARCHAR (20) NULL,
+    [FacilityId]              BIGINT       NOT NULL,
+    [ExternalMarketingName]   VARCHAR (20) NULL,
+    [CreatedDateTime]         DATETIME     NOT NULL,
+    [ModifiedDateTime]        DATETIME     NOT NULL,
+    [CreatedByUser]           VARCHAR (80) NOT NULL,
+    [ModifiedByUser]          VARCHAR (80) NULL,
+    [CreatedByProgram]        VARCHAR (80) NOT NULL,
+    [ModifiedByProgram]       VARCHAR (80) NULL,
+    [RecordStatus]            INT          NOT NULL,
+    CONSTRAINT [XPKMarketing] PRIMARY KEY CLUSTERED ([MarketingId] ASC),
+    CONSTRAINT [R_335] FOREIGN KEY ([FacilityId]) REFERENCES [FAC].[Facility] ([FacilityId])
+);
+

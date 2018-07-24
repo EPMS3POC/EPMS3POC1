@@ -1,0 +1,27 @@
+﻿CREATE TABLE [FAC].[Prospect] (
+    [ProspectId]        BIGINT        IDENTITY (1, 1) NOT NULL,
+    [CallerFirstName]   VARCHAR (35)  NULL,
+    [CallerLastName]    VARCHAR (35)  NULL,
+    [PatientFirstName]  VARCHAR (35)  NULL,
+    [PatientLastName]   VARCHAR (35)  NULL,
+    [GenderId]          BIGINT        NULL,
+    [DateOfBirth]       FLOAT (53)    NULL,
+    [PhoneNumber]       VARCHAR (15)  NULL,
+    [PhoneType]         BIGINT        NULL,
+    [EmailAddress]      VARCHAR (256) NULL,
+    [VisitReasonId]     BIGINT        NOT NULL,
+    [CallDate]          FLOAT (53)    NULL,
+    [FacilityId]        BIGINT        NULL,
+    [VisitReasonTypeId] BIGINT        NULL,
+    [CreatedDateTime]   DATETIME      NOT NULL,
+    [ModifiedDateTime]  DATETIME      NOT NULL,
+    [CreatedByUser]     VARCHAR (80)  NOT NULL,
+    [ModifiedByUser]    VARCHAR (80)  NULL,
+    [CreatedByProgram]  VARCHAR (80)  NOT NULL,
+    [ModifiedByProgram] VARCHAR (80)  NULL,
+    [RecordStatus]      INT           NOT NULL,
+    CONSTRAINT [PK_Prospect] PRIMARY KEY CLUSTERED ([ProspectId] ASC),
+    CONSTRAINT [R_378] FOREIGN KEY ([FacilityId]) REFERENCES [FAC].[Facility] ([FacilityId]),
+    CONSTRAINT [R_607] FOREIGN KEY ([VisitReasonTypeId]) REFERENCES [SCH].[VisitReasonType] ([VisitReasonTypeId])
+);
+

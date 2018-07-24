@@ -1,0 +1,26 @@
+﻿CREATE TABLE [ACC].[Ledger] (
+    [LedgerId]          BIGINT       IDENTITY (1, 1) NOT NULL,
+    [LastStatementDate] DATETIME     NULL,
+    [BalanceDue]        MONEY        NULL,
+    [AccountId]         BIGINT       NOT NULL,
+    [VisitId]           BIGINT       NULL,
+    [BilledAmount]      MONEY        NULL,
+    [AllowedAmount]     MONEY        NULL,
+    [DeductableAmount]  MONEY        NULL,
+    [CoInsurance]       MONEY        NULL,
+    [CoPay]             MONEY        NULL,
+    [PaidAmount]        MONEY        NULL,
+    [AdjustmentAmount]  MONEY        NULL,
+    [LedgerBalance]     MONEY        NULL,
+    [CreatedDateTime]   DATETIME     NOT NULL,
+    [ModifiedDateTime]  DATETIME     NOT NULL,
+    [CreatedByUser]     VARCHAR (80) NOT NULL,
+    [ModifiedByUser]    VARCHAR (80) NULL,
+    [CreatedByProgram]  VARCHAR (80) NOT NULL,
+    [ModifiedByProgram] VARCHAR (80) NULL,
+    [RecordStatus]      INT          NOT NULL,
+    CONSTRAINT [XPKLedger] PRIMARY KEY CLUSTERED ([LedgerId] ASC),
+    CONSTRAINT [R_525] FOREIGN KEY ([AccountId]) REFERENCES [ACC].[Account] ([AccountId]),
+    CONSTRAINT [R_678] FOREIGN KEY ([VisitId]) REFERENCES [SCH].[Visit] ([VisitId])
+);
+
